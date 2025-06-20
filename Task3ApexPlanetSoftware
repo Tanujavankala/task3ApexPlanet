@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -111,7 +111,7 @@
         const userAnswer = prompt(current.question);
         if (userAnswer !== null) {
           const isCorrect = userAnswer.trim().toLowerCase() === current.answer.toLowerCase();
-          alert(isCorrect ? "Correct!" : Wrong! Answer: ${current.answer});
+          alert(isCorrect ? "Correct!" :'Wrong! Answer: ${current.answer}');
           quizIndex++;
           startQuiz(); // Continue to next question
         }
